@@ -6,7 +6,6 @@ from streamlit_lottie import st_lottie
 import json
 
 
-
 translator = Translator()
 st.title('Uso de textblob')
 
@@ -51,6 +50,6 @@ with st.expander('Corrección en inglés'):
           st.write((blob2.correct())) 
 
 
-with open(1741878048397.json) as source:
+with open('graficos.json') as source:
   animation=json.load(source)
-  st.lottie(animation,width=350)
+st. lottie (animation,width =350)
