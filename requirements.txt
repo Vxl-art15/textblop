@@ -1,3 +1,5 @@
+streamlit-lottie
+
 streamlit
 #nltk
 textblob==0.17.1
