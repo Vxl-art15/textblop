@@ -1,7 +1,8 @@
 import streamlit as st
 from textblob import TextBlob
 from googletrans import Translator
-from streamlit_lottie imporst st_lottie
+
+from streamlit_lottie import st_lottie
 import json
 
 with open(1741878048397.json) as source:
